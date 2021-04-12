@@ -1,0 +1,13 @@
+
+
+
+
+<h2>{{article.title}}</h2>
+
+<p>URL: <a href="{{article.url}}">{{article.url}}</a></p>
+{{#if user.username}}
+<p>Posted by: <a href= "/{{user.username}}"> {{user.username}} </a></p>
+{{/if}}
+
+<br>
+<p>{{article.description}}</p>

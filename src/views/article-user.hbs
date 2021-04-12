@@ -1,0 +1,16 @@
+
+
+<h2>{{user.username}}</h2>
+{{#if article}}
+<div class='articlesList'>
+  {{#each article}}
+    <p>.
+      <a href="{{url}}"> {{title}}</a>
+    </p>
+  {{/each}}
+</div>
+{{else}}
+<p>
+This user does not have articles added!:( 
+</p>
+{{/if}}

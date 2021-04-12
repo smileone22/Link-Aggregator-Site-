@@ -1,0 +1,10 @@
+
+
+{{#if login}}
+<div class='articlesList'>
+  {{#each articles}}
+    <p>. <a href={{url}}>{{title}}</a> -[<a href='/article/{{slug}}'>details</a>]</p>
+  {{/each}}
+</div>
+{{/if}}
+

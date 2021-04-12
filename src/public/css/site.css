@@ -1,0 +1,48 @@
+header {
+    display: inline-flex;
+    background-color: rgb(198, 239, 252);
+    height: 60px;
+    width:100%;
+}
+
+.myDiv2 {
+  position: absolute;
+  right: 10px;
+}
+.myDiv3 {
+    position: fixed;
+    right: 10px;
+}
+h1{
+    text-align: center;
+}
+.intro {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h2 {
+    text-align: center;
+}
+form {
+    text-align: left;
+    margin: 30px;
+}
+body {
+    font-family: serif;
+}
+.error{
+    background-color: pink;
+    text-align: center;
+
+}
+
+.articlesList {
+    margin-left: 40px;
+    counter-reset: section;
+    line-height: 5px;
+}
+
+.articlesList p:before {
+    counter-increment: section;
+    content: counter(section);
+}

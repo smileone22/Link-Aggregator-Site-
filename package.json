@@ -1,0 +1,41 @@
+{
+  "scripts": {
+    "test": "mocha test/test-auth.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "hbs": "^4.0.1",
+    "mongoose": "^5.0.11",
+    "mongoose-type-email": "^1.0.5",
+    "mongoose-url-slugs": "^1.0.2",
+    "moongoose": "0.0.5",
+    "package.json": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.23.0",
+    "eslint-plugin-mocha": "^8.1.0",
+    "mocha": "^8.3.2",
+    "mock-require": "^3.0.1"
+  },
+  "name": "smileone22-homework06",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-034-spring-2021/smileone22-homework06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-034-spring-2021/smileone22-homework06/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-034-spring-2021/smileone22-homework06#readme",
+  "description": ""
+}
